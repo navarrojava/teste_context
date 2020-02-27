@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import {Router, Link} from "@reach/router"
+import Home from "./containers/home";
+import Dash from "./containers/dash";
+import {AppContext , rootReducerCombined} from "./core/lib/global_context";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import useStore from './core/lib/useStore'
+import Provider from './core/lib/provider'
+
+
+
+export default () => {
+    const context = React.useContext(AppContext)
+    const store = useStore(rootReducerCombined, context);
+    return (
+        <Provider store={store}>
+            <Link to="home">Home</Link> |{"   "}
+            <Link to="dash">Dashboard</Link>
+            <Router>
+                <Home path="home"/>
+                <Dash path="dash"/>
+            </Router>
+        </Provider>
+    )
 }
-
-export default App;

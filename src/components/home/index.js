@@ -1,0 +1,14 @@
+import React from "react";
+
+export const Home = (props) => {
+    console.log(props)
+    return (<>
+        <br/>
+        <div>Home</div>
+        <br/>
+        <div>value Home: {props.value_home}</div>
+        <div>value Dash: {props.value_dash}</div>
+        <button onClick={() => props.actions.increment_home()}>INCREMENT HOME</button>
+        <button onClick={() => props.actions.increment_dash()}>INCREMENT DASH</button>
+    </>)
+}
