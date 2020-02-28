@@ -1,6 +1,6 @@
 import React from "react";
 
-const actions = {
+export const actions = {
     INCREMENT_DASH: "increment_dash",
     DECREMENT_DASH: "decrement_dash",
     RESET: "reset"

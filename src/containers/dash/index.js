@@ -1,16 +1,14 @@
 import connect from '../../core/lib/connect'
 import {Dash} from "../../components/dash";
-import DashActions  from '../../core/dash/actions'
+import {DashActions} from '../../core/dash'
+import {HomeActions} from '../../core/home'
 
 const mapDispatchToProps = dispatch => ({
     actions: {
-        increment_dash: async () => {
-            dispatch({type:'increment_dash'})
-        },
-        increment_home: async () => {
-            dispatch({type:'increment_home'})
-        },
+        ...DashActions(dispatch),
+        ...HomeActions(dispatch)
     },
+    dispatch
 
 })
 

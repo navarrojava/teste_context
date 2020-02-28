@@ -1,13 +1,13 @@
 import React from "react";
 
-const actions = {
+export const actions = {
     INCREMENT_HOME: "increment_home",
     DECREMENT_HOME: "decrement_home",
     RESET: "reset"
 };
 
-export default function reducer(state, action) {
-    switch (action.type) {
+export default function reducer(state, {type,payload}) {
+    switch (type) {
 
         case actions.INCREMENT_HOME:
             return { ...state, value_home: state.value_home +1};
