@@ -1,24 +1,21 @@
-import {dashActionTypes} from '../index'
+import { dashActionTypes } from "../index";
 
-export default (dispatch) => ({
-    increment_dash: async () => {
+export default dispatch => ({
+  increment_dash: async () => {
+    await mockPromise();
 
-        await mockPromise()
+    dispatch({
+      type: dashActionTypes.INCREMENT_DASH
+    });
+  },
 
-        dispatch({
-            type: dashActionTypes.INCREMENT_DASH
-        })
-    },
-
-    decrement_dash: async () => {
-        dispatch({
-            type: dashActionTypes.DECREMENT_DASH
-        })
-    }
-
-})
-
+  decrement_dash: async () => {
+    dispatch({
+      type: dashActionTypes.DECREMENT_DASH
+    });
+  }
+});
 
 const mockPromise = () => {
-    return new Promise(resolve => setTimeout(() => resolve(), 3000))
-}
+  return new Promise(resolve => setTimeout(() => resolve(), 3000));
+};

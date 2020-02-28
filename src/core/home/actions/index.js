@@ -1,24 +1,21 @@
+import { homeActionsTypes } from "../";
 
-import { homeActionsTypes }from '../'
-export default (dispatch) => ({
-    increment_home: async () => {
+export default dispatch => ({
+  increment_home: async () => {
+    await mockPromise();
 
-        await mockPromise()
+    dispatch({
+      type: homeActionsTypes.INCREMENT_HOME
+    });
+  },
 
-        dispatch({
-            type: homeActionsTypes.INCREMENT_HOME
-        })
-    },
-
-    decrement_home: async () =>{
-        dispatch({
-            type: homeActionsTypes.DECREMENT_HOME
-        })
-    }
-
-})
-
+  decrement_home: async () => {
+    dispatch({
+      type: homeActionsTypes.DECREMENT_HOME
+    });
+  }
+});
 
 const mockPromise = (miliseconds = 2000) => {
-    return new Promise(resolve => setTimeout(() => resolve(), miliseconds))
-}
+  return new Promise(resolve => setTimeout(() => resolve(), miliseconds));
+};
