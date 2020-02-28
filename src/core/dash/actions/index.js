@@ -1,4 +1,5 @@
-import { dashActionTypes }from '../index'
+import {dashActionTypes} from '../index'
+
 export default (dispatch) => ({
     increment_dash: async () => {
 
@@ -9,7 +10,7 @@ export default (dispatch) => ({
         })
     },
 
-    decrement_dash: async () =>{
+    decrement_dash: async () => {
         dispatch({
             type: dashActionTypes.DECREMENT_DASH
         })

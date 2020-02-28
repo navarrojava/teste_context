@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e105d055-1ae7-48f7-92f5-f4b96774b847" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/dash/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/dash/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/dash/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/dash/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/dash/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/dash/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/dash/reducer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/dash/reducer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/home/reducer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/home/reducer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/lib/connect/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/lib/connect/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,6 +31,7 @@
           <entry key="css" value="2" />
           <entry key="gitignore" value="1" />
           <entry key="js" value="69" />
+          <entry key="json" value="1" />
           <entry key="md" value="2" />
           <entry key="ts" value="1" />
         </counts>
@@ -45,6 +39,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
+          <entry key="JSON" value="1" />
           <entry key="JavaScript" value="69" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
@@ -54,13 +49,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="2" />
-          <entry key="js" value="1828" />
+          <entry key="js" value="1830" />
+          <entry key="json" value="2" />
           <entry key="md" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="1828" />
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="1830" />
           <entry key="Markdown" value="66" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
@@ -68,7 +65,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.4819035">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -105,19 +102,19 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/core/dash/index.js">
+            <entry file="file://$PROJECT_DIR$/src/core/dash/actions/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="34" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="34" />
+                <state relative-caret-position="360">
+                  <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/core/dash/actions/index.js">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/package.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+                <state relative-caret-position="443">
+                  <caret line="33" column="4" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -134,11 +131,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="543">
-                  <caret line="408" column="103" selection-start-line="408" selection-start-column="103" selection-end-line="408" selection-end-column="103" />
+                <state relative-caret-position="409">
+                  <caret line="354" column="15" lean-forward="true" selection-start-line="354" selection-start-column="15" selection-end-line="354" selection-end-column="15" />
                 </state>
               </provider>
             </entry>
@@ -177,8 +174,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/core/lib/connect/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" column="42" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="42" />
+                <state relative-caret-position="105">
+                  <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -220,18 +217,19 @@
         <option value="$PROJECT_DIR$/src/components/home/index.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/core/dash/context/index.js" />
-        <option value="$PROJECT_DIR$/src/core/lib/connect/index.js" />
         <option value="$PROJECT_DIR$/src/components/dash/index.js" />
         <option value="$PROJECT_DIR$/src/core/dash/reducer/index.js" />
         <option value="$PROJECT_DIR$/src/core/dash/index.js" />
         <option value="$PROJECT_DIR$/src/core/home/index.js" />
         <option value="$PROJECT_DIR$/src/core/home/actions/index.js" />
         <option value="$PROJECT_DIR$/src/core/home/reducer/index.js" />
-        <option value="$PROJECT_DIR$/src/core/dash/actions/index.js" />
         <option value="$PROJECT_DIR$/src/containers/dash/index.js" />
         <option value="$PROJECT_DIR$/src/containers/home/index.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/core/lib/connect/index.js" />
+        <option value="$PROJECT_DIR$/src/core/dash/actions/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -394,12 +392,12 @@
       <updated>1582811516243</updated>
       <workItem from="1582811517546" duration="8243000" />
       <workItem from="1582829688689" duration="6781000" />
-      <workItem from="1582892715345" duration="5133000" />
+      <workItem from="1582892715345" duration="5326000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20157000" />
+    <option name="totallyTimeSpent" value="20350000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -415,7 +413,7 @@
     <editor active="true" />
     <layout>
       <window_info id="npm" sideWeight="0.28833333" side_tool="true" visible="true" weight="0.17432208" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.71166664" visible="true" weight="0.17432208" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.71166664" visible="true" weight="0.17432208" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -427,7 +425,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32972974" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.35135135" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.35135135" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -503,16 +501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="29" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/lib/connect/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -595,13 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/dash/actions/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -612,10 +593,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/lib/connect/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="408" column="103" selection-start-line="408" selection-start-column="103" selection-end-line="408" selection-end-column="103" />
+        <state relative-caret-position="409">
+          <caret line="354" column="15" lean-forward="true" selection-start-line="354" selection-start-column="15" selection-end-line="354" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/dash/actions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="33" column="4" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
         </state>
       </provider>
     </entry>

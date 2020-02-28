@@ -4,16 +4,16 @@ import {AppContext} from "../global_context";
 
 const { Consumer } = AppContext
 const isFunction = target => typeof target === 'function'
-const defualtMapStateToProps = () => ({})
-const defualtMapDispatchToProps = () => ({})
+const defaultMapStateToProps = () => ({})
+const defaultMapDispatchToProps = () => ({})
 
 export default (originalMapStateToProps, originalMapDispatchToProps) => {
     const mapStateToProps = isFunction(originalMapStateToProps)
         ? originalMapStateToProps
-        : defualtMapStateToProps
+        : defaultMapStateToProps
     const mapDispatchToProps = isFunction(originalMapDispatchToProps)
         ? originalMapDispatchToProps
-        : defualtMapDispatchToProps
+        : defaultMapDispatchToProps
 
     return Component => (props) => (
         <Consumer>
