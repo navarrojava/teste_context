@@ -2,7 +2,6 @@ import { dashActionTypes } from "../index";
 
 export default dispatch => ({
   increment_dash: async () => {
-
     await mockPromise(500);
 
     dispatch({
