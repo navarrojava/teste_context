@@ -1,10 +1,10 @@
-import {useReducer} from 'react';
+import { useReducer } from "react";
 
 export default (reducer, initialState) => {
-    const [state, dispatch] = useReducer(reducer, initialState);
+  const [state, dispatch] = useReducer(reducer, initialState);
 
-    return {
-        getState: () => state,
-        dispatch,
-    };
+  return {
+    getState: () => state,
+    dispatch
+  };
 };

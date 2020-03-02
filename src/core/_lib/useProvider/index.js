@@ -1,9 +1,7 @@
-import React from 'react';
-
+import React from "react";
 
 export default globalContext => props => {
+  const { Provider } = globalContext;
 
-    const {Provider} = globalContext
-
-    return (<Provider value={props.store}>{props.children}</Provider>)
-}
+  return <Provider value={props.store}>{props.children}</Provider>;
+};
