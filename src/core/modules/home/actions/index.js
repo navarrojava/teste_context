@@ -2,8 +2,7 @@ import { homeActionsTypes } from "../index";
 
 export default dispatch => ({
   increment_home: async () => {
-    await mockPromise();
-
+    await mockPromise(500);
     dispatch({
       type: homeActionsTypes.INCREMENT_HOME
     });

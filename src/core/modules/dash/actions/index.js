@@ -2,11 +2,8 @@ import { dashActionTypes } from "../index";
 
 export default dispatch => ({
   increment_dash: async () => {
-    dispatch({
-      type: dashActionTypes.LOADDING
-    });
 
-    await mockPromise();
+    await mockPromise(500);
 
     dispatch({
       type: dashActionTypes.INCREMENT_DASH
@@ -20,6 +17,6 @@ export default dispatch => ({
   }
 });
 
-const mockPromise = () => {
-  return new Promise(resolve => setTimeout(() => resolve(), 3000));
+const mockPromise = (milliseconds = 2000) => {
+  return new Promise(resolve => setTimeout(() => resolve(), milliseconds));
 };
