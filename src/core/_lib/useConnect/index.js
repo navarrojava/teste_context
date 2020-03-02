@@ -1,13 +1,13 @@
 import React from "react";
-import {AppContext} from "../global_context";
 
-
-const { Consumer } = AppContext
 const isFunction = target => typeof target === 'function'
 const defaultMapStateToProps = () => ({})
 const defaultMapDispatchToProps = () => ({})
 
-export default (originalMapStateToProps, originalMapDispatchToProps) => {
+export default appContext => (originalMapStateToProps, originalMapDispatchToProps) => {
+
+    const { Consumer } = appContext
+
     const mapStateToProps = isFunction(originalMapStateToProps)
         ? originalMapStateToProps
         : defaultMapStateToProps

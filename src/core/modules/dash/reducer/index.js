@@ -1,4 +1,3 @@
-import React from "react";
 
 export const actions = {
     INCREMENT_DASH: "increment_dash",
@@ -6,8 +5,8 @@ export const actions = {
     RESET: "reset"
 };
 
-export default function reducer(state, action) {
-    switch (action.type) {
+export default function reducer(state, {type, payload}) {
+    switch (type) {
         case actions.INCREMENT_DASH:
             return {...state, value_dash: state.value_dash + 1};
         case actions.DECREMENT_DASH:

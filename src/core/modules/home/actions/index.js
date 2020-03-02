@@ -1,4 +1,4 @@
-import { homeActionsTypes } from "../";
+import { homeActionsTypes } from "../index";
 
 export default dispatch => ({
   increment_home: async () => {
@@ -16,6 +16,6 @@ export default dispatch => ({
   }
 });
 
-const mockPromise = (miliseconds = 2000) => {
-  return new Promise(resolve => setTimeout(() => resolve(), miliseconds));
+const mockPromise = (milliseconds = 2000) => {
+  return new Promise(resolve => setTimeout(() => resolve(), milliseconds));
 };

@@ -1,12 +1,12 @@
-import connect from '../../core/lib/connect'
+import {connect} from '../../core/_root'
 import {Dash} from "../../components/dash";
-import {DashActions} from '../../core/dash'
-import {HomeActions} from '../../core/home'
+import {DashActions} from '../../core/modules/dash'
+import {HomeActions} from '../../core/modules/home'
 
 const mapDispatchToProps = dispatch => ({
     actions: {
         ...DashActions(dispatch),
-        ...HomeActions(dispatch)
+        ...HomeActions(dispatch),
     },
     dispatch
 
